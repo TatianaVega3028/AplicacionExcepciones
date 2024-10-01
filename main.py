@@ -8,7 +8,7 @@ def obtener_numero_natural():
                 raise ValueError("El número debe ser un natural positivo.")
             return numero
         except ValueError as e:
-            print(f"Entrada inválida: {e}. Por favor, intente nuevamente.")
+            print(f"Entrada no válida: {e}. Por favor, intente nuevamente.")
 
 
 def calcular_divisores(numero):
